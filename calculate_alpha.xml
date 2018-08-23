@@ -1,0 +1,18 @@
+<tool id="calculate_alpha" name="calculate alpha diversity from otu table">
+<description></description>
+<command interpreter="bash">calculate_alpha.sh $input $output</command>
+<inputs>
+<param format=".txt" name="input" type="data" label="otu table"/>
+</inputs>
+<outputs>
+<data format="tabular" type="data" name="output" label="$input.display_name alpha diversity"/>
+</outputs>
+<tests>
+<test>
+<param name="test_input" value="test_input.txt"/>
+<output name="test_outout" file="test_output.txt"/>
+</test>
+</tests>
+<help>
+</help>
+</tool>
