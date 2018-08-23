@@ -22,8 +22,8 @@ sudo git clone https://github.com/naturalis/galaxy-tool-alpha
 sudo chmod 777 galaxy-tool-alpha/*
 ```
 ```
-sudo ln -s /home/galaxy/Tools/calculate_alpha.sh /home/galaxy/galaxy/tools/identify/calculate_alpha.sh
-sudo ln -s /home/galaxy/Tools/calculate_alpha.xml /home/galaxy/galaxy/tools/identify/calculate_alpha.xml
+sudo ln -s /home/galaxy/Tools/galaxy-tool-alpha/calculate_alpha.sh /home/galaxy/galaxy/tools/identify/calculate_alpha.sh
+sudo ln -s /home/galaxy/Tools/galaxy-tool-alpha/calculate_alpha.xml /home/galaxy/galaxy/tools/identify/calculate_alpha.xml
 ```
 Add the following line to /home/galaxy/galaxy/config/tool_conf.xml
 ```
